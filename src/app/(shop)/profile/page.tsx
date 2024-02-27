@@ -26,7 +26,7 @@ export default async function ProfilePage() {
 
                     <div className="w-full h-[250px] bg-slate-100"></div>
                     <div className="flex flex-col items-center -mt-20">
-                        <Image src="https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg" className="w-40 border-4 border-white rounded-full" alt={""} />
+                        <Image width={100} height={100} src="https://www.shutterstock.com/image-vector/blank-avatar-photo-place-holder-600nw-1095249842.jpg" className="w-40 border-4 border-white rounded-full" alt={""} />
                         <div className="flex items-center space-x-2 mt-2">
                             <p className="text-2xl">{session.user.name}</p>
                         </div>
